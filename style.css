@@ -1,0 +1,112 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float:right;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.active {
+    background-color: purple;
+}
+
+ h2 {
+    text-decoration: underline;
+ } 
+ p.center {
+    text-align: center;
+    color: purple;
+ }
+
+ .centered-text {
+    text-align: center;
+ }
+ .left {
+    text-align: left;
+}
+
+.left {
+    text-align: left;
+}
+.left {
+    text-align: left;
+}
+.left {
+    text-align: left;
+}
+.justify {
+    text-align: justify;
+}
+
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.image-text-container {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    margin-right: 10px;
+}
+.center-text {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button svg {
+    width: 20px;
+    height: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items:center;
+    gap: 10px;
+}
+
+.logo-container img {
+    width: 100px;
+    height:100px;
+}
+
+.logo-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+}
